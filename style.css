@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Oswald:wght@600&family=Roboto:wght@400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Oswald:wght@600&family=Roboto:wght@400&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Noto+Sans+JP:wght@300&family=Oswald:wght@600&family=Roboto:wght@300&display=swap');
 
 *{
     /* height: 0; */
@@ -93,9 +95,10 @@
 .smalltxt{
     color: white;
     font-size: small;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
     margin-top: 13px;
     
     
@@ -106,9 +109,10 @@
 .mediumtxt,.mediumtext{
     color: white;
     font-size: medium;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
     /* padding: 0; */
 }
 .mediumtxt{
@@ -155,9 +159,10 @@
 .text2{
     color: white;
     font-size: medium;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 
@@ -177,9 +182,10 @@
     /* font-weight: 800; */
     color: white;
     /* font-size: medium; */
-    font-family: 'Noto Sans JP', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
     font-size: large;
 }
 
@@ -203,7 +209,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 45px;
     
 
 }
