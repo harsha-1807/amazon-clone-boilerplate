@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Oswald:wght@600&family=Roboto:wght@400&display=swap');
+
+*{
+    /* height: 0; */
+    margin: 0;
+    padding: 0;
+    
+}
+
+#head1{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 100%;
+    background-color:#131921;
+    justify-content: space-around;
+
+
+}
+#hello{
+    color: white;
+    margin-top: 13px;
+    /* padding:; */
+}
+#location{
+    display: flex;
+    
+}
+#l_id{
+    margin-top: 29px;
+}
+#add{
+    color: white;
+    /* margin-top: 15px; */
+    padding: 0;
+
+}
+#input{
+    width: 600px;
+    height:50px;
+    /* border: 1px solid green; */
+    display: flex;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+#select{
+    height: 50px;
+    width: 50px;
+    color: gray;
+    border-radius: 10px 0px 0px 10px ;
+    
+}
+#input1{
+    height: 47px;
+    width: 500px;
+}
+#search{
+    height: 50px;
+    width: 50px;
+    border-radius: 0px 10px 10px 0px ;
+    background-color: #F59817;
+    
+}
+#img-s{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#flag{
+    height: 50px;
+    width: 50px;  
+    /* border: 1px solid green; */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+#arrow{
+    margin-top: 35px;
+}
+#text{
+    height: 50px;
+    width: 180px;  
+    /* border: 1px solid green; */
+    display: flex; 
+    justify-content:center;
+}
+.smalltxt{
+    color: white;
+    font-size: small;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 13px;
+    
+    
+
+
+
+}
+.mediumtxt,.mediumtext{
+    color: white;
+    font-size: medium;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* padding: 0; */
+}
+.mediumtxt{
+    margin-top: -15px;
+
+}
+#cart{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#carttxt{
+    margin-top: 10px;
+}
+
+
+/* header 2 */
+
+
+#head2{
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+
+    
+
+}
+#part1{
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    
+}
+#prime{
+    display: flex;
+    justify-content: flex-end;
+}
+.text2{
+    color: white;
+    font-size: medium;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* part2 */
+#part2{
+    border: 1px solid red;
+    width: 350px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+#lion{
+    height: 40px;
+}
+.text3{
+    /* font-weight: 800; */
+    color: white;
+    /* font-size: medium; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
