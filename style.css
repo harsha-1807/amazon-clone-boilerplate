@@ -189,23 +189,29 @@
 .background{
     /* width: 1000px; */
     margin-left: 10px;
+    z-index: -1;
+    
 
 }
 
 /* web body style  */
 #webBody{
     height: 600px;
-    width: 1450px;
-    border: 1px solid red;
+    width: 1480px;
+    /* border: 1px solid red; */
     margin-left: 20px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-around;
+    margin-top: 20px;
     
 
 }
 .box{
+
     height: 300px;
     width: 200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    background-color: black;
+
 }
