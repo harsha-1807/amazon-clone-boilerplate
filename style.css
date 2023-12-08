@@ -1,19 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin,wght@1,500&family=Noto+Sans+JP:wght@300&family=Oswald:wght@600&family=Roboto:wght@300&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Oswald:wght@600&family=Roboto:wght@400&display=swap'); */
-
-  @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Noto+Sans+JP:wght@300&family=Oswald:wght@600&family=Roboto:wght@300&display=swap');
 
 *{
     /* height: 0; */
     margin: 0;
     padding: 0;
-    
+    font-family: 'Cabin', sans-serif;   
 }
-/* body{
-    background-image: url(./assets/background\ picture.png);
-    
-} */
 
+#bg{
+    height: 86.5vh ;
+    background-image: url(./assets/background\ picture.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
 /* header1 */
 #head1{
     display: flex;
@@ -23,8 +24,7 @@
     background-color:#131921;
     justify-content: space-around;
     top: 0;
-
-
+    /* align-items: center; */
 }
 #hello{
     color: white;
@@ -68,11 +68,13 @@
     width: 50px;
     border-radius: 0px 10px 10px 0px ;
     background-color: #F59817;
+
     
 }
 #img-s{
     margin-top: 10px;
     margin-left: 5px;
+    height: 30px;
 }
 #flag{
     height: 50px;
@@ -81,6 +83,8 @@
     display: flex; 
     justify-content: center;
     align-items: center;
+    margin-top: 14px;
+
 }
 #arrow{
     margin-top: 35px;
@@ -93,26 +97,17 @@
     justify-content:center;
 }
 .smalltxt{
+    font-family: 'Cabin', sans-serif;
     color: white;
     font-size: small;
-    font-family: 'Cabin', sans-serif;
-font-family: 'Noto Sans JP', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto', sans-serif;
     margin-top: 13px;
-    
-    
-
-
 
 }
 .mediumtxt,.mediumtext{
     color: white;
     font-size: medium;
     font-family: 'Cabin', sans-serif;
-font-family: 'Noto Sans JP', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto', sans-serif;
+
     /* padding: 0; */
 }
 .mediumtxt{
@@ -160,9 +155,7 @@ font-family: 'Roboto', sans-serif;
     color: white;
     font-size: medium;
     font-family: 'Cabin', sans-serif;
-font-family: 'Noto Sans JP', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -182,23 +175,13 @@ font-family: 'Roboto', sans-serif;
     /* font-weight: 800; */
     color: white;
     /* font-size: medium; */
-    font-family: 'Cabin', sans-serif;
-font-family: 'Noto Sans JP', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Cabin',sans-serif;
+    
     font-size: large;
 }
 
 
-/* background style  */
 
-.background{
-    /* width: 1000px; */
-    margin-left: 10px;
-    z-index: -1;
-    
-
-}
 
 /* web body style  */
 #webBody{
@@ -221,3 +204,77 @@ font-family: 'Roboto', sans-serif;
     background-color: black;
 
 }
+
+/* mid part  */
+#middle{
+    display: flex;
+    justify-content: space-around;
+    /* position: relative; */
+    position: absolute;
+    top: 380px;
+    z-index: 1;
+    width: 98vw;
+    /* left: 40px; */
+
+}
+.tabs{
+    height: 350px;
+    width: 340px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#tab4{
+    height: 350px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+a{
+    text-align: left;
+}
+.tab{
+    height: 130px;
+    width: 340px;
+    background-color: white;
+}
+
+.heading{
+    margin: 10px 0px 0px 5px;
+    font-size: 20px;
+    font-weight: 10px;
+}
+
+#signin{
+    width: 20vw;
+    height: 5vh;
+    margin: 10px 0px 0px 13px;
+    background-color: #FFD814;
+    border: none;
+    border-radius: 10px;
+    /* font-size: 20px; */
+    font-weight: 700;
+
+}
+
+.containerforimg{
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.imgnames{
+    height: 100px;
+
+}
+
