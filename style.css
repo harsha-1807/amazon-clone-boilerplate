@@ -278,3 +278,119 @@ a{
 
 }
 
+/* Responsive  */
+@media screen and (max-width: 768px) {
+  #part1 {
+    display: none;
+  }
+  #logo{
+    width: 40px;
+    margin: 0;
+    padding: 0;
+
+
+  }
+  #location {
+    display: none;
+  }
+  #amazon {
+    width: 60px;
+  }
+
+  /* header1 */
+  #head1 {
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    /* justify-content: space-around; */
+    /* top: 0; */
+  }
+
+  #input {
+    width: 30px;
+    height: 10px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 15px;
+  }
+  #select {
+    height: 30px;
+    width: 40px;
+    font-size: small;
+    
+  }
+  #input1 {
+    height: 27px;
+    width: 100px;
+  }
+  #search {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+  }
+  #img-s {
+    margin-top: 10px;
+    margin-right: 10px; 
+    height: 10px;
+  }
+
+  #flag {
+    display: none;
+  }
+
+  #text {
+    display: none;
+  }
+
+
+
+ 
+  #cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    margin-top: 30px;
+  }
+  #cartimg{
+    height: 30px;
+  }
+
+  #middle{
+    display: flex;
+    flex-direction: column;
+    background-color: #2A4651;
+    padding-left: 20px;
+    /* justify-content: center; */
+    align-items: center;
+
+  }
+  .tabs{
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+  }
+    #tab4{
+    margin-top: 20px;
+  }
+  
+
+
+  /* navbar completed */
+
+
+
+  /* body  */
+
+
+
+}
+
+
+
