@@ -7,6 +7,12 @@
     padding: 0;
     font-family: 'Cabin', sans-serif;   
 }
+body{
+    background-color: #2A4651;
+}
+#amazon {
+  width: 8rem;
+}
 
 #bg{
     height: 86.5vh ;
